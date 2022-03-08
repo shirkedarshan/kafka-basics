@@ -27,6 +27,12 @@
             <version>1.7.35</version>
 <!--            <scope>test</scope>-->
         </dependency>
+
+        <dependency>
+            <groupId>com.twitter</groupId>
+            <artifactId>hbc-core</artifactId> <!-- or hbc-twitter4j -->
+            <version>2.2.0</version> <!-- or whatever the latest version is -->
+        </dependency>
     </dependencies>
 
 </project>
