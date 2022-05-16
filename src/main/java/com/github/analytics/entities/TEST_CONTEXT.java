@@ -1,14 +1,19 @@
-package com.github.analytics.entities;
+package entities;
 
 public class TEST_CONTEXT {
-    public static final String BOOSTRAP_SERVERS = "127.0.0.1:9092";
-    public static final String TOPIC_NAME = "first_topic";
-    public static final String GROUP_ID = "my-java-consumer-application";
-    public static final String COMPRESSION_TYPE = "snappy";
-
-    public static final String LATEST = "latest";
-    public static final String EARLIEST = "earliest";
-    public static final String CONSUMER = "consumer";
-    public static final String TRUE = "true";
-    public static final String ALL = "all";
+    public static final String APP_ID = "appId";
+    public static final String BOOTSTRAP_SERVERS = "bootstrapServers";
+    public static final String IN_TOPIC_1 = "inTopic1";
+    public static final String IN_TOPIC_2 = "inTopic2";
+    public static final String IN_TOPIC_3 = "inTopic3";
+    public static final String IN_TOPIC_4 = "inTopic4";
+    public static final String IN_TOPIC_5 = "inTopic5";
+    public static final String IN_TOPIC_6 = "inTopic6";
+    public static final String IN_TOPIC_7 = "inTopic7";
+    public static final String OUT_STREAM_OR_TABLE = "outStreamOrTable";
+    public static final String OUT_TOPIC = "outTopic";
+    public static final String IN_TOPIC_8 = "inTopic8";
+    public static final String IN_TOPIC_9 = "inTopic9";
+    public static final String IN_TOPIC_10 = "inTopic10";
+    public static final String IS_WRITING_TO_TOPIC = "isWritingToTopic";
 }
