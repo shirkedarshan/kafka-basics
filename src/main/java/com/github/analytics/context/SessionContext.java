@@ -13,7 +13,8 @@ public class SessionContext {
 
     public SessionContext() {
     }
-
+    
+    // SessionContext.addContext(threadId, new TestExecutionContext(String.valueOf(threadId)));
     public static synchronized void addContext(long threadId, TestExecutionContext testExecutionContext) {
         allTestsExecutionContext.put(String.valueOf(threadId), testExecutionContext);
         System.out.println(String.format("Adding context for thread - %s", threadId));
