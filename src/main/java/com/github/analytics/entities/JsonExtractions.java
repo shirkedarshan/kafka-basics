@@ -6,14 +6,7 @@ import org.json.simple.JSONObject;
 public class JsonExtractions {
 
     public JSONObject getJsonBeforeAfterObject(JSONObject jsonObject) {
-        String opType = jsonObject.get("op_type").toString().trim();
-
-        if (opType.equals("I") || opType.equals("U")) {
-            return (JSONObject) jsonObject.get("after");
-
-        } else if (opType.equals("D")) {
-            return (JSONObject) jsonObject.get("before");
-        }
+        // Some code
         throw new InvalidTestDataException("Error in JsonExtractions: getJsonBeforeAfterObject");
     }
 
